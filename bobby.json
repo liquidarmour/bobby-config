@@ -13,13 +13,6 @@
       "range": "(,2.15.0]",
       "reason": "log4j is known to have a security vulnerability",
       "from": "2021-12-10"
-    },
-    {
-      "organisation": "com.typesafe.play",
-      "name": "play-json",
-      "range": "(,2.8.0]",
-      "reason": "log4j is known to have a security vulnerability",
-      "from": "2000-12-10"
     }
   ],
   "plugins" : []
