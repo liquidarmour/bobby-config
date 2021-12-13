@@ -3,14 +3,14 @@
     {
       "organisation": "org.apache.logging.log4j",
       "name": "log4j-core",
-      "range": "[2.15.0,]",
+      "range": "[,2.15.0]",
       "reason": "log4j is known to have a security vulnerability",
       "from": "2021-12-10"
     },
     {
       "organisation": "log4j",
       "name": "log4j",
-      "range": "[2.15.0,]",
+      "range": "[,2.15.0]",
       "reason": "log4j is known to have a security vulnerability",
       "from": "2021-12-10"
     },
@@ -20,6 +20,15 @@
       "range": "[,2.8.0]",
       "reason": "log4j is known to have a security vulnerability",
       "from": "2000-12-10"
+    }
+  ],
+  "plugins" : [
+    {
+      "organisation": "uk.gov.hmrc",
+      "name": "sbt-auto-build",
+      "range": "[1.0.0]",
+      "reason": "1.0.0 has a bug",
+      "from": "2099-01-01"
     }
   ]
 }
