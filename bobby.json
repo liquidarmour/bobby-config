@@ -13,6 +13,13 @@
       "range": "[2.15.0,]",
       "reason": "log4j is known to have a security vulnerability",
       "from": "2021-12-10"
+    },
+    {
+      "organisation": "org.slf4j",
+      "name": "log4j-over-slf4j",
+      "range": "[1.7.32,]",
+      "reason": "log4j is known to have a security vulnerability",
+      "from": "2021-12-10"
     }
   ]
 }
