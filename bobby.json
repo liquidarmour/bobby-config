@@ -15,9 +15,9 @@
       "from": "2021-12-10"
     },
     {
-      "organisation": "org.slf4j",
-      "name": "log4j-over-slf4j",
-      "range": "[1.7.32,]",
+      "organisation": "com.amazonaws",
+      "name": "aws-java-sdk-s3",
+      "range": "[10.0.0,]",
       "reason": "log4j is known to have a security vulnerability",
       "from": "2021-12-10"
     }
